@@ -1,0 +1,12 @@
+#container{
+    text-align:center;
+    border: 2px solid #8A8A83;
+    border-radius:10px;
+    font-family: 'Merriweather', serif;
+    color: #8A8A83;
+}
+
+.emphasis{
+    color:#FD8FD8;
+    font-weight:bold;
+}

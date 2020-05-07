@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8"/>
   <title>TP1</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet"/>
 </head>
 <body>
-  <h1>LE JUSTE CHIFFRE</h1>
-  <h2>Cherche donc le JUSTE CHIFFRE, qui se trouve entre 1 et 100!</h2>
-  <form method="post" action="#">
-    <input type="number" placeholder="Entre ton chiffre" id="number"/>
-    <button type="button" name="button" id="button">Cherche!</button>
-    <p id="moreLess"></p>
-  </form>
-  <script src="assets/js/jquery-3.5.1.min.js"></script>
-  <script src="assets/js/script.js"></script>
+  <div id="container">
+    <h1 class="emphasis">LE JUSTE CHIFFRE</h1>
+    <h2>Cherche donc le <span class="emphasis">JUSTE CHIFFRE</span>, qui se trouve entre 1 et 100!</h2>
+    <form method="post" action="#">
+      <!--Champ de saisie de nombres-->
+      <input type="number" placeholder="Entre ton chiffre" id="number"/>
+      <!--Bouton qui déclenchera la recherche-->
+      <button type="button" name="button" id="button">Cherche!</button>
+      <!--Paragraphe où ça sera écrit "plus" ou "moins"-->
+      <p id="moreLess" class="emphasis"></p>
+    </form>
+  </div>
+</span>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
