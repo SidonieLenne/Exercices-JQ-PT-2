@@ -6,17 +6,19 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 <body>
-  <h1 class="emphasis">VOTRE MOYENNE</h1>
-  <p>Entrez vos 5 dernières notes</p>
+  <h1>TA MOYENNE</h1>
+  <p>Entre tes 5 dernières notes</p>
   <form method="post" action="#">
     <!--Champ de saisie des notes-->
-    <input type="number" placeholder="Première note" id="number1"/>
-    <input type="number" placeholder="Deuxième note" id="number2"/>
-    <input type="number" placeholder="Troisième note" id="number3"/>
-    <input type="number" placeholder="Quatrième note" id="number4"/>
-    <input type="number" placeholder="Cinquième note" id="number5"/>
+    <ul>
+      <li>Note 1 : <input type="number" name="note1" placeholder="Première note" id="number1"/></li>
+      <li>Note 2 : <input type="number" name="note2" placeholder="Deuxième note" id="number2"/></li>
+      <li>Note 3 : <input type="number" name="note3" placeholder="Troisième note" id="number3"/></li>
+      <li>Note 4 : <input type="number" name="note4" placeholder="Quatrième note" id="number4"/></li>
+      <li>Note 5 : <input type="number" name="note5" placeholder="Cinquième note" id="number5"/></li>
+    </ul>
     <!--Bouton qui déclenchera le calcul-->
-    <button type="button" name="button" id="button">Calculez</button>
+    <button type="button" name="button" id="button">Calcule</button>
   </form>
   <script src="assets/js/jquery-3.5.1.min.js"></script>
   <script src="assets/js/script.js"></script>
